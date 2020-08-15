@@ -22,10 +22,11 @@ export default function Category (){
   return(
     <View style={styles.container}>
       <View style={styles.name}>
-        <Text style={styles.textName}>Fuego Drink</Text>
+        <Text style={styles.textName}>Fuego Drink 🔥</Text>
       </View>
       <View style={styles.header}>
-        <Text style={styles.text}>Confira as categorias abaixo</Text>
+        <Text style={styles.text}>Check out the categories</Text>
+        <Text style={styles.emoji}>↓↓↓↓</Text>
       </View>
       {data.map((category) => (
         <TouchableOpacity 

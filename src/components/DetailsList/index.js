@@ -29,22 +29,27 @@ export default function IngredientList(){
           key={details.idDrink}
           style={styles.details}>
           <Text style={styles.name}>{details.strDrink}</Text>
-          <Text style={styles.type}>Tipo: 
+          <Text style={styles.type}>Type: 
             <Text style={styles.typeAlcohlic}> {details.strAlcoholic}</Text>
           </Text>
-          <Text style={styles.glass}>Tipo copo: 
+          <Text style={styles.glass}>Type glass: 
             <Text style={styles.typeGlass}> {details.strGlass}</Text>
           </Text>
-          <Text style={styles.ingredient}>Ingredientes</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient1}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient2}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient3}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient4}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient5}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient6}</Text>
-          <Text style={styles.ingredientItem}>{details.strIngredient7}</Text>
-          <Text style={styles.instruction}>Modo de preparo</Text>
-          <Text style={styles.instructionPrepare}> {details.strInstructions}</Text>
+          <View style={styles.viewIngredient}>
+            <Text style={styles.ingredient}>Ingredient</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient1}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient2}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient3}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient4}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient5}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient6}</Text>
+            <Text style={styles.ingredientItem}>{details.strIngredient7}</Text>
+          </View>
+          <View style={styles.viewInstruction}>
+            <Text style={styles.instruction}>Preparation mode</Text>
+            <Text style={styles.instructionPrepare}> {details.strInstructions}</Text>
+          </View>
+          
         </View>
       ))}
     </ScrollView>

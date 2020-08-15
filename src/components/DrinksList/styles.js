@@ -3,30 +3,32 @@ const { StyleSheet } = require("react-native");
 const styles = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor:'#fff',
+    backgroundColor:'#DEDCDB',
   },
   list:{
     flexDirection:'row',
     alignItems:'center',
-    padding:24,
+    padding:15,
+    backgroundColor:'#FF5400',
   },
   touch:{
-    borderWidth:1,
+    borderWidth:2,
     borderRadius:10,
     width:350,
     marginLeft:30,
-    marginBottom:20,
-    marginTop:20
+    marginTop:20,
+    overflow:'hidden'
   },
   image:{
     height:'100%',
     width:'100%',
-    borderRadius:25,
-    backgroundColor:'#eee'
+    borderWidth:1,
+    borderRadius:15,
+    backgroundColor:'#FFF',
   },
   areaImage:{
-    height:50,
-    width:50,
+    height:70,
+    width:70,
   },
   text:{
     fontSize:25,

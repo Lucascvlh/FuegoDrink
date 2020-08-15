@@ -22,7 +22,6 @@ export default function DrinkList(){
     }
     getDrinks();
   }, [])
-  console.log(data)
 
   return(
     <View style={styles.container}>

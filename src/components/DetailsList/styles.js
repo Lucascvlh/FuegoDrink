@@ -3,12 +3,13 @@ const { StyleSheet } = require("react-native");
 const styles = StyleSheet.create({
   container:{
     flex:1,
+    height:800,
   },
   details:{
     padding:20,
     justifyContent:'center',
     alignItems:'center',
-    
+    backgroundColor:'#DEDCDB',
   },
   name:{
     fontSize:40,
@@ -17,13 +18,23 @@ const styles = StyleSheet.create({
     padding:10,
     paddingLeft:30,
     paddingRight:30,
-    borderRadius:10
+    borderRadius:10,
+    overflow:'hidden',
+    backgroundColor:'#51BDD6',
+    width:360,
   },
   type:{
     fontSize:25,
     marginTop:10,
     fontWeight:'bold',
-    marginTop:50
+    borderWidth:1,
+    padding:10,
+    paddingLeft:30,
+    paddingRight:30,
+    borderRadius:10,
+    width:360,
+    backgroundColor:'#A1C740',
+    overflow:'hidden'
   },
   typeAlcohlic:{
     fontWeight:'normal',
@@ -31,25 +42,53 @@ const styles = StyleSheet.create({
   glass:{
     fontSize:25,
     marginTop:10,
-    fontWeight:'bold'
+    fontWeight:'bold',
+    borderWidth:1,
+    padding:10,
+    paddingLeft:30,
+    paddingRight:30,
+    borderRadius:10,
+    width:360,
+    backgroundColor:'#E0C651',
+    overflow:'hidden'
   },
   typeGlass:{
     fontWeight:'normal',
   },
+  viewIngredient:{
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center',
+    borderWidth:1,
+    padding:10,
+    borderRadius:10,
+    marginTop:10,
+    width:360,
+    backgroundColor:'#E08934'
+  },
   ingredient:{
     fontSize:30,
-    marginTop:10,
-    marginTop:50,
-    fontWeight:'bold'
+    fontWeight:'bold',
   },
   ingredientItem:{
     fontSize:25,
-    marginTop:10
+    marginTop:10,
+  },
+  viewInstruction:{
+    flex:1,
+    justifyContent:'center',
+    alignItems:'center',
+    borderWidth:1,
+    padding:10,
+    paddingLeft:30,
+    paddingRight:30,
+    borderRadius:10,
+    marginTop:10,
+    width:360,
+    backgroundColor:'#E06233',
   },
   instruction:{
     fontSize:25,
-    marginTop:10,
-    marginTop:30,
     fontWeight:'bold', 
   },
   instructionPrepare:{

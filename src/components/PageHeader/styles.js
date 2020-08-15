@@ -5,13 +5,14 @@ const styles = StyleSheet.create({
     justifyContent:'flex-end',
     alignItems:'center',
     height:100,
-    backgroundColor:'#007fff'
+    backgroundColor:'#DEDCDB',
+    borderBottomWidth:1
   },
   text:{
-    fontSize:30,
-    marginBottom:15,
-    color:'orange',
-    fontWeight:'bold'
+    fontSize:40,
+    marginBottom:10,
+    fontWeight:'bold',
+    color:'#D6000C'
   }
 })
 
